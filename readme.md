@@ -21,7 +21,7 @@ Predicts property sale prices in three contrasting Sydney markets (Chatswood, Ca
 - **Period:** October 2025 to September 2026
 - **Target:** `price` (sale price, AUD)
 - **Features:** suburb, property type, bedrooms, bathrooms, car spaces, land size (m²)
-- **Source:** <!-- Describe how and where the data was collected -->
+- **Source:** realestate.com.au, domain.com.au
 
 ## Setup
 
@@ -74,10 +74,6 @@ Median absolute prediction error by suburb: Blacktown 8.0%, Castle Hill 9.1%, Ch
 - Chatswood sample is almost entirely houses, so Chatswood unit predictions are unvalidated.
 - No information on condition, renovation, views, lot type or street position.
 - Predictions for Chatswood and properties above $3.5M should be treated as rough guides.
-
-## GenAI acknowledgement
-
-<!-- Describe how GenAI tools were used, e.g. planning, code drafting, debugging, feedback -->
 
 ## Author
 
